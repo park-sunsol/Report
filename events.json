@@ -281,17 +281,7 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "KB라이프 딱좋은요즘건강 보험료자동납부 청구할인!",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001659",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250820_healthylifedisscount_orange.png",
-    "설명": "",
-    "_id": "1001659"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "스카이패스 티타늄 카드  3천 마일리지 적립",
+    "이벤트명": "스카이패스 티타늄 카드 3천 마일리지 적립",
     "기간": "2026.08.01~2026.08.31",
     "종료일": "2026-08-31",
     "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001649",
@@ -328,6 +318,16 @@
     "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260429-Currency-olive.png",
     "설명": "",
     "_id": "1001623"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "호텔부터 맛집까지 “괌”으로 준비했습니다",
+    "기간": "2026.07.13~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001562",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250609_guam_mint.png",
+    "설명": "",
+    "_id": "1001562"
   },
   {
     "카드사": "KB국민카드",
@@ -371,16 +371,6 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "삼성화재자동차보험 캐시백 최대3만원 신규가입 혜택",
-    "기간": "2026.06.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001083",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/_251105_Samsung_blue.png",
-    "설명": "",
-    "_id": "1001083"
-  },
-  {
-    "카드사": "KB국민카드",
     "이벤트명": "유니온페이 해외 10% 즉시할인",
     "기간": "2026.05.16~2026.08.31",
     "종료일": "2026-08-31",
@@ -401,7 +391,7 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "일본여행 필수품 JCB  20% 캐시백",
+    "이벤트명": "일본여행 필수품 JCB 20% 캐시백",
     "기간": "2026.04.01~2027.03.31",
     "종료일": "2027-03-31",
     "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1000613",
@@ -411,7 +401,7 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "쓰던카드 그대로 국내공항  라운지 F&B 최대50%",
+    "이벤트명": "쓰던카드 그대로 국내공항 라운지 F&B 최대50%",
     "기간": "2026.03.09~2026.12.31",
     "종료일": "2026-12-31",
     "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1000455",
@@ -528,16 +518,6 @@
     "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20241231155731_4621_롯데,신라아이파크면세점_pc_310x200.png",
     "설명": "",
     "_id": "7638"
-  },
-  {
-    "카드사": "롯데카드",
-    "이벤트명": "삼성화재 다이렉트 자동차보험 신규 가입 시 최대 3만원 캐시백",
-    "기간": "2026.08.01 ~ 2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.lottecard.co.kr/app/LPBNFDA_A100.lc",
-    "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20260601134045_7207_삼성화재자동차보험50만원_pc_310X210.png",
-    "설명": "",
-    "_id": "11152"
   },
   {
     "카드사": "삼성카드",
@@ -698,26 +678,6 @@
     "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/30/P_thumb_286x275_10.png",
     "설명": "",
     "_id": "M261106575"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "자동차보험 신규 가입 시 최대 3만원 캐시백!",
-    "기간": "2026.08.03~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1401M0.jsp",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/05/28/P_thumb_286x275.png",
-    "설명": "",
-    "_id": "M261105413"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "자동차보험, 차량별로 상품권 혜택 제공",
-    "기간": "2026.06.01~2026.09.30",
-    "종료일": "2026-09-30",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1401M0.jsp",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/09/P_thumb_286x275_2.png",
-    "설명": "",
-    "_id": "M261106181"
   },
   {
     "카드사": "삼성카드",
@@ -900,16 +860,6 @@
     "_id": "M261106150"
   },
   {
-    "카드사": "삼성카드",
-    "이벤트명": "4대 사회보험 정기결제 납부대행수수료 할인",
-    "기간": "2026.07.01~2026.07.31",
-    "종료일": "2026-07-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1401M0.jsp",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/06/25/P_thumb_286x275_1.png",
-    "설명": "",
-    "_id": "M261105851"
-  },
-  {
     "카드사": "현대카드",
     "이벤트명": "대한항공카드 이벤트 3천 마일리지 + 12만원 캐시백",
     "기간": "2026. 8. 1~2026. 8. 31",
@@ -931,16 +881,6 @@
   },
   {
     "카드사": "현대카드",
-    "이벤트명": "DB손해보험 현대카드 신규 회원 연회비 캐시백 이벤트",
-    "기간": "2026. 8. 1~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000746"
-  },
-  {
-    "카드사": "현대카드",
     "이벤트명": "국내 제휴 호텔 7~9월 이벤트 추가 혜택 안내",
     "기간": "2026. 7. 21~2026. 9. 30",
     "종료일": "2026-09-30",
@@ -958,16 +898,6 @@
     "썸네일": "",
     "설명": "",
     "_id": "0000000859"
-  },
-  {
-    "카드사": "현대카드",
-    "이벤트명": "현대해상 '내 보험 보장분석' 전화 상담 후 가입 시 최대 3만 M포인트 사용",
-    "기간": "2026. 7. 1~2026. 12. 31",
-    "종료일": "2026-12-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000849"
   },
   {
     "카드사": "현대카드",
@@ -1021,26 +951,6 @@
   },
   {
     "카드사": "현대카드",
-    "이벤트명": "롯데손해보험 원데이자동차보험 최대 3만 M포인트 사용",
-    "기간": "2025. 11. 20~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000764"
-  },
-  {
-    "카드사": "현대카드",
-    "이벤트명": "롯데손해보험 다이렉트 자동차보험 30만원 이상 결제 시 최대 3만 M포인트 사용",
-    "기간": "2025. 11. 20~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000763"
-  },
-  {
-    "카드사": "현대카드",
     "이벤트명": "롯데손해보험 해외여행자보험 최대 3만 M포인트 사용",
     "기간": "2025. 11. 20~2026. 8. 31",
     "종료일": "2026-08-31",
@@ -1058,116 +968,6 @@
     "썸네일": "",
     "설명": "",
     "_id": "0000000761"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "풀만 앰배서더 서울 이스트폴",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=1725639&checkin=2026-09-16&checkout=2026-09-17&adult=2&eventCd=20260804_HD3",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785746499332.jpg",
-    "설명": "☕ 커피 한잔의 여유 최대 52% ⬇️ 커피 2잔 제공",
-    "_id": "n44jb71era"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "씨마크 호텔",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=976826&checkin=2026-09-15&checkout=2026-09-16&adult=2&eventCd=20260804_HD3",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785746695243.jpg",
-    "설명": "♨️바다 보고 사우나 최대 53% ⬇️ 사우나 2인 + 9~10월 투숙 시 1인 추가비용 무료 ",
-    "_id": "k0ltvtbxhu"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "윈덤 그랜드 부산",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=1568068&checkin=2026-10-13&checkout=2026-10-14&adult=2&eventCd=20260804_HD4",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785746808697.jpg",
-    "설명": "🌊전객실 오션뷰⛱ 최대 66% ⬇️ 수영장 & 피트니스 2인 1회 포함",
-    "_id": "hpc4j8x956"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "시그니엘 서울",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=933669&checkin=2026-08-18&checkout=2026-08-19&adult=2&eventCd=20260804_HD5",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785746931938.jpg",
-    "설명": "⬆️ 한 단계 더 특별하게 최대 51% ⬇️ 1단계 무료 업그레이드 제공",
-    "_id": "sv79uc26xo"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "다낭 4일",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://pkgtour.naver.com/products/verygoodtour/APP9945%7CKE-20260921",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785736664609.png",
-    "설명": "#5성급호텔🌟 #노팁노옵션 #부산출발 ✅Npay 포인트 44,763원 적립!",
-    "_id": "nvio0je1q9"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "청도 3일",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://pkgtour.naver.com/products/verygoodtour/CPP833%7CLJHS-20260907",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785736912151.png",
-    "설명": "#노옵션 #4대특식 #📺8/6(목)20시 라이브! ✅Npay 포인트 30,323원 적립!",
-    "_id": "ugxpi97ow9"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "도야마/알펜루트/구로베 4일",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://pkgtour.naver.com/products/modetour/JHP662LJK4-20261102",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785736995152.png",
-    "설명": "#알펜루트횡단 #온천호텔 #팁포함 ✅Npay 포인트 102,594원 적립!",
-    "_id": "otocalqo6s"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "하노이/사파 5일",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://pkgtour.naver.com/products/hanatour/AVP20514ED486C1WEA-20260913",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785736782648.png",
-    "설명": "#베스트셀러🏆#전일정5성급 #힐링 ✅Npay 포인트 44,003원 적립!",
-    "_id": "nnhvn8yxpe"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "하얏트 리젠시 세라가키 아일랜드 오키나와",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=1105608&checkin=2026-09-15&checkout=2026-09-17&adult=2&eventCd=20260804_HD1",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785747110728.jpg",
-    "설명": "🩴 휴양 모드 ON 최대 10%⬇️ 룸온리 특가",
-    "_id": "rb9kybdwb1"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "인터컨티넨탈 푸꾸옥 롱 비치 리조트 바이 IHG",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=1420661&checkin=2026-09-14&checkout=2026-09-16&adult=2&eventCd=20260804_HD1",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785747223408.jpg",
-    "설명": "🥐 조식이 기다려져 최대 11% ⬇️ 조식포함 특가",
-    "_id": "dkilcmbx4b"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "아야나 세가라 발리",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://naver.triptopaz.com/Rate?hcd=1598212&checkin=2026-11-01&checkout=2026-11-03&adult=2&eventCd=20260804_HD2",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785747302264.jpg",
-    "설명": "🌺 여기가 휴양의 정석 최대 11% ⬇️ 조식포함 특가",
-    "_id": "p9k0zwzwdg"
   },
   {
     "카드사": "네이버",
@@ -1198,5 +998,505 @@
     "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785395151430.png",
     "설명": "#10월황금연휴추천 #3일 연차 9일 여행 🌍✈️ #튀르키예 #이탈리아 #프랑스 #스페인 #포르투갈",
     "_id": "mw5gmxvd1z"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "분할납부 이용해서 해외 여행 부담없이 다녀오세요",
+    "기간": "2026.02.24~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005390",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/2/24/4a58b3cb-0935-417c-b00b-3340a7dc663c.png",
+    "설명": "해외 이용금액은 일시불 결제만 가능해서 부담되셨죠 ? 분할납부 서비스 이용해보세요",
+    "_id": "30005390"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "해외에서 SUPER 이용하고 최대 150만원 SUPER한 할인 혜택까지",
+    "기간": "2026.08.01~2026.08.31",
+    "종료일": "2026-08-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006138",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/7/30/0a3a5eb6-daaf-41fc-b5f3-edc7fb0af1f8.png",
+    "설명": "",
+    "_id": "30006138"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "라이나손해보험(에이스손보) 해외여행보험",
+    "기간": "2026.08.01~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005698",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/4/20/9f89e40f-1f49-4ea6-85ee-2cf56a897d4c.png",
+    "설명": "힐링하러 가는 여행, 복잡한 건 싫으니까- 간편하게 가입하고 걱정없이 다녀오세요!",
+    "_id": "30005698"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "해외에서 커피 마시면, 메가커피 2잔 드려요",
+    "기간": "2026.07.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006052",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/6/29/387608cc-9d85-4d4c-b4c9-3fcb9416442c.png",
+    "설명": "스타벅스, 블루보틀, 루이싱커피 등 해외 이용 시 커피 쿠폰 제공!",
+    "_id": "30006052"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "해외 택시 50% 캐시백",
+    "기간": "2026.07.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006051",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/6/29/ce438418-0fef-4729-b1fb-116bb6a9938a.png",
+    "설명": "우버(Uber) / 그랩(Grab) / DiDi(디디) 해외에서 택시타고 캐시백 받아가세요!",
+    "_id": "30006051"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "해외QR결제! 쉽고 편리한데 투썸플레이스 아메리카노까지?!",
+    "기간": "2026.06.18~2026.08.31",
+    "종료일": "2026-08-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006024",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/6/16/3634fd21-873a-4b53-a881-1205b7479e0a.png",
+    "설명": "해외QR결제 특화카드 ‘카드의정석2 ExK체크카드‘ 첫 결제 시 1,000분께 아메리카노 쿠폰을 드립니다.",
+    "_id": "30006024"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "2026년에도 호텔스닷컴 10% 즉시할인",
+    "기간": "2026.02.21~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005375",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/2/20/51ab1eb8-6bfb-4456-b4ce-26a3a38cbd07.png",
+    "설명": "설렘가득한 특가는 기본! 호텔스닷컴에서 호텔예약은 언제나 10% 할인중",
+    "_id": "30005375"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "트립닷컴 호텔, 항공, 액티비티 통합 할인전",
+    "기간": "2026.01.05~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30003101",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2024/4/8/d18a972c-061b-48d8-ba3f-b958c1876643.png",
+    "설명": "호텔부터 항공, 액티비티까지 모두 할인? 트립닷컴에서 우리카드로 여행 한 번에 준비하자~",
+    "_id": "30003101"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "공항 라운지 [1+1] 또는 본인 30% 현장 할인!",
+    "기간": "2026.01.01~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005250",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/1/13/50e186d2-513a-483a-b580-e0a61a98c20c.png",
+    "설명": "우리카드와 함께라면 부담은 덜하게~ 여행은 더 편하게~ 해외여행의 시작 공항에서 라운지 혜택을 즐기세요!",
+    "_id": "30005250"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "해외 여행자보험 10% 할인 혜택!",
+    "기간": "2026.01.01~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30003851",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2025/1/6/b8d37931-3979-45a2-9790-2cab1af9a9e5.png",
+    "설명": "가입 안하고 출발하기엔 불안했던 여행자보험~! 이제 우리카드로 10% 할인 받고 편안하게 떠나세요~!",
+    "_id": "30003851"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "[해외서비스] 미국 Global Entry 수수료 캐시백",
+    "기간": "2025.09.22~2026.09.21",
+    "종료일": "2026-09-21",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30004785",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2025/9/19/239d3d40-6d05-4e6b-98dc-64e3ee7ca0b9.png",
+    "설명": "미국 입국심사 간소화 프로그램 (Global Entry)",
+    "_id": "30004785"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "위비트래블과 함께라면 <BR> 신라면세점에서도 꿀같은 할인 혜택!",
+    "기간": "2024.10.02~2026.08.31",
+    "종료일": "2026-08-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30003518",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2024/9/27/7123a09f-4104-402f-b797-e990146999b0.png",
+    "설명": "신라면세점 쿠폰북부터 추가 할인 혜택까지!",
+    "_id": "30003518"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "[단독특가] 롯데호텔제주 연박PKG OPEN",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/2257",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/03/157934/53ee81a8-849b-430f-b949-e5a20c80b112",
+    "설명": "",
+    "_id": "2257"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "아시아나항공 동남아 인기 노선 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9011/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/31/157915/41f53432-12ad-450c-bb40-eb726ab0ec11",
+    "설명": "",
+    "_id": "9011"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 미국 로스앤젤레스 & 시애틀 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9005/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/29/157895/69217ea9-5b2a-4d1a-bb09-afa355f79360",
+    "설명": "",
+    "_id": "9005"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 X 델타항공 미주 인기 노선 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8997/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/27/157870/4dc43cec-c8fb-454f-924e-2b69fdffb891",
+    "설명": "",
+    "_id": "8997"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 유럽/대양주 주요 도시 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8982/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/22/157844/9e13dbfc-ecc3-475b-998c-9f1f3d0f1db3",
+    "설명": "",
+    "_id": "8982"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "스쿠트항공 동남아 & 대양주 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8969/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/20/157829/c54b4bde-976a-4618-8d7f-1122a314b19e",
+    "설명": "",
+    "_id": "8969"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "티웨이항공 지방출발 포함 전 노선 얼리버드 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8961/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/09/157783/15a4aa69-2815-4253-bdda-abb5eb6e271a",
+    "설명": "",
+    "_id": "8961"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "홍콩 & 마카오 인기 호텔 최대 할인 특가",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/marketing/curationHotelMacauHongkong",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/02/157746/d6afd4aa-0ac2-43b4-a953-f5b22b044b5a",
+    "설명": "",
+    "_id": "curationHotelMacauHongkong"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "완벽한 유럽 여행을 위한 인기 투어&티켓 추천",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/2157",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/04/157601/3bb82fe8-7694-4786-bcdc-2b5be6625ab1",
+    "설명": "",
+    "_id": "2157"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "루프트한자 독일항공 유럽 주요 도시 얼리버드 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8893/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/02/157583/ad651082-6f77-4eab-82c3-3bf2342033ca",
+    "설명": "",
+    "_id": "8893"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "일본 쇼핑 쿠폰북, 여행 가기 전 저장 필수!",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/2147",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/02/157580/44fc6ff3-119b-4757-a036-567c436ea71b",
+    "설명": "",
+    "_id": "2147"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "이스타항공 26/27년 출발 얼리버드 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8877/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/05/27/157539/4f3eb5a3-370f-4b44-98a9-b9821fc60d3b",
+    "설명": "",
+    "_id": "8877"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "국내&해외 호텔 예약시 대한항공 마일리지 적립",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/2087",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/05/06/157425/5e2b391d-d0ac-4b22-84f1-760bd73dc85b",
+    "설명": "",
+    "_id": "2087"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "나트랑/푸꾸옥/다낭 취향따라 떠나는 베트남 자유여행",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1055",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/04/27/157409/bc3dc4f5-73ef-4956-a962-66dc19d3ef5d",
+    "설명": "",
+    "_id": "1055"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "8·9·10·11월 할인 호텔 선착순 쿠폰팩",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://mw.priviatravel.com/promotion/sectionEvent/ts/2081",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/27/157407/a46f4bf8-4b2b-4d52-9ced-2dfe01051b6d",
+    "설명": "",
+    "_id": "2081"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "전세계 럭셔리 호텔 최대 저렴 + 최다 특전",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/marketing/citydirect",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/04/02/157276/155fb14b-47bf-479a-b426-878d8e7f0893",
+    "설명": "",
+    "_id": "citydirect"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "나만 알고 싶은 일본 소도시 여행지 추천",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1705",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/11/11/156537/78a58db1-e62a-4784-a267-e9d8598a8314",
+    "설명": "",
+    "_id": "1705"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "호텔 고를 때 필수! AI 호텔 네비게이션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1667",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/10/24/156424/280ecb71-d6c5-412c-8056-a76d8bfa3891",
+    "설명": "",
+    "_id": "1667"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "국제선 항공권 10% M포인트 사용 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8512/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/10/14/156347/d1a5859f-7349-4e0a-b036-5cddd9032f1e",
+    "설명": "",
+    "_id": "8512"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "제주신라호텔 회원전용 특가",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://hotel.priviatravel.com/view/iso/country/city/lowCurrentPath?checkIn=2025-10-14&checkOut=2025-10-15&occupancies=1~2~0&htlMasterId=35479",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/09/01/156154/f64bc7c2-441b-4887-9cec-28a2cc5159c4",
+    "설명": "",
+    "_id": "lowCurrentPath?checkIn=2025-10-14&checkOut=2025-10-15&occupancies=1~2~0&htlMasterId=35479"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "아시아나항공 미국 인기도시 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8415/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/31/156043/e59726a8-1860-4efb-9cf7-d89790d84f74",
+    "설명": "",
+    "_id": "8415"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 유럽 & 중동 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8375/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/07/28/155919/cc9c829f-3cde-4a38-a2ca-d147a0a54a20",
+    "설명": "",
+    "_id": "8375"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "아시아나항공 일본 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8349/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/07/17/155847/d04670e5-1eed-4944-8ad4-1c00b9fb5c67",
+    "설명": "",
+    "_id": "8349"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "베트남 전국 숙소 가이드 & 여행지도",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1365",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/07/09/155784/db38a590-574d-4221-a53f-692009d8e1c2",
+    "설명": "",
+    "_id": "1365"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "현대카드 혜택받고 떠나는 여행",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8321/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/07/22/155875/26e5af76-e67c-43cb-a5a3-f8fa465e621c",
+    "설명": "",
+    "_id": "8321"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "아시아나항공 중국 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8312/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/07/155715/d96b09cb-8c7c-415b-b3a6-35042cbfe259",
+    "설명": "",
+    "_id": "8312"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "내가 바라는 여행의 모든 것! 프라이빗 투어",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1077",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/04/21/155354/7e6ba9e2-6252-4bfe-a5a4-575996d65d9d",
+    "설명": "",
+    "_id": "1077"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "일본 다이렉트 요금 더 저렴한 일본호텔은 여기",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/japandirect",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/04/05/155267/2059229d-1af3-4216-a35b-0e66b9c6ecfc",
+    "설명": "",
+    "_id": "japandirect"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "고베, 오사카, 아리마온천까지! 일본여행 숙소 할인",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/1015",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/04/02/155258/67f42e71-b9cf-4ae6-98f2-2934c818ecfd",
+    "설명": "",
+    "_id": "1015"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대만 숙소 고민 끝! 대만 인기 호텔 모음",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/ts/629",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/01/17/154747/41a3764f-5e85-44f5-85c5-bba116c24dfb",
+    "설명": "",
+    "_id": "629"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "우리 동네에서 떠나는 지방 출발 해외여행",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/theme/provincialdeparture/1873",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2024/11/14/154284/f6339c57-8f40-4863-a3f9-26da7f6cf764",
+    "설명": "",
+    "_id": "1873"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "무비자로 떠나는 중국 여행",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/theme/visafreechina/2359",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2024/11/14/154280/dd36d87e-e2bb-4b25-8cc3-bdd8c121a832",
+    "설명": "",
+    "_id": "2359"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "싱가포르 포레스트 인기 호텔 특가 제공",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/theme/sinhotel/1987",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2024/08/28/153684/8853b7d4-7abb-4a83-81d5-5fac7bae14c7",
+    "설명": "",
+    "_id": "1987"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "해외패키지 특별한 혜택 최대 13% 혜택 제공",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/7493/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2024/07/09/153355/00266df4-c75d-4620-a9b8-14fd918fd08c",
+    "설명": "",
+    "_id": "7493"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "키즈동반라운지 숙박 추천",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/6321/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2023/09/08/149975/d4a7d75b-aa5f-4888-a482-5dd0ca295077",
+    "설명": "",
+    "_id": "6321"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 노선별 특가 모음전",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/6139/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/03/17/155145/410179b5-0c8f-4c19-b8d0-904e4a17112f",
+    "설명": "",
+    "_id": "6139"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 전노선 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/5345/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2025/03/17/146304/54d5a62c-42b0-4c15-987d-6817882ab4e6",
+    "설명": "",
+    "_id": "5345"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "국내항공 결항 시 대처방법",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/4130/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2024/11/08/141189/690fa510-db1a-4bbd-8620-7fcd0a4b8a65",
+    "설명": "",
+    "_id": "4130"
   }
 ]
