@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """카드사 여행 프로모션 수집기.
 
-수집 대상: 신한, KB국민, 롯데, 삼성, 현대, 네이버 (6개 - LLM 개입 없이 requests만으로 동작)
-미구현: 우리카드, 현대카드 PRIVIA (엔드포인트 못 찾음 - collect_woori/collect_hyundai_privia 참고)
+수집 대상: 신한, KB국민, 롯데, 삼성, 현대, 네이버, 우리, 현대카드 PRIVIA (8개 - LLM 개입 없이 requests만으로 동작)
 
 사용법:
   python3 collect.py --diff          현재 수집 결과를 prev.json과 비교해 [변경] 블록 출력, prev.json 갱신
@@ -16,11 +15,13 @@
   - 네트워크 정책이 반드시 Full이어야 함 (Trusted면 카드사 도메인 403)
 """
 import argparse
+import html
 import json
 import re
 import ssl
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -52,7 +53,8 @@ def is_travel_event(title: str) -> bool:
 
 
 def clean_title(title: str) -> str:
-    return re.sub(r"<br\s*/?>", " ", title or "").strip()
+    title = re.sub(r"<br\s*/?>", " ", title or "")
+    return re.sub(r"\s+", " ", title).strip()
 
 
 class LegacyTLSAdapter(HTTPAdapter):
@@ -262,6 +264,10 @@ def collect_naver():
     sections = data.get("props", {}).get("pageProps", {}).get("hotDeals", [])
     for sec in sections:
         for p in sec.get("products", []):
+            link = p.get("pcLandingUrl") or p.get("moLandingUrl") or ""
+            if urlparse(link).netloc != "travel.naver.co.kr":
+                # pkgtour.naver.com(패키지 상품), naver.triptopaz.com(호텔 예약) 등 타 도메인 제외
+                continue
             title = clean_title(p.get("productName", ""))
             desc = " ".join(filter(None, [p.get("description1"), p.get("description2")]))
             full_title = f"{title} ({sec.get('nvTitle','')})" if sec.get("nvTitle") else title
@@ -271,7 +277,7 @@ def collect_naver():
             events.append({
                 "카드사": "네이버", "이벤트명": title, "기간": "",
                 "종료일": "",
-                "링크": p.get("pcLandingUrl") or p.get("moLandingUrl") or "",
+                "링크": link,
                 "썸네일": p.get("pcImage") or p.get("moImage") or "",
                 "설명": desc, "_id": p.get("productId", ""),
             })
@@ -279,13 +285,80 @@ def collect_naver():
 
 
 def collect_woori():
-    # 못 찾음: /dcpc/.../getPrgEvntList.pwkjson 정확한 경로 미확인 (여러 후보 404/302)
-    return []
+    events = []
+    url = "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/getPrgEvntList.pwkjson"
+    headers = {
+        "User-Agent": UA, "Content-Type": "application/json;charset=UTF-8",
+        "Proworks-Body": "Y", "Proworks-Lang": "ko",
+        "Referer": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/H1BNF202S00.do",
+    }
+    page = 1
+    while True:
+        payload = {"bnf02PrgEvntVo": {
+            "evntCtgrNo": "", "searchKwrd": "", "sortOrd": "orderNew",
+            "pageIndex": str(page), "pageSize": "15", "evntItgCfcd": "",
+        }}
+        r = requests.post(url, json=payload, headers=headers, timeout=15)
+        r.raise_for_status()
+        lst = r.json().get("prgEvntList", [])
+        if not lst:
+            break
+        for it in lst:
+            title = clean_title(html.unescape(it.get("cardEvntNm", "")))
+            if not is_travel_event(title):
+                continue
+            std, edd = it.get("evntSdt", ""), it.get("evntEdt", "")
+            thumb = it.get("fileCoursWeb") or ""
+            if thumb.startswith("/"):
+                thumb = "https://pc.wooricard.com" + thumb
+            events.append({
+                "카드사": "우리카드", "이벤트명": title,
+                "기간": f"{std}~{edd}" if std and edd else "",
+                "종료일": edd.replace(".", "-") if edd else "",
+                "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do"
+                        f"?evntSrno={it.get('evntSrno', '')}",
+                "썸네일": thumb,
+                "설명": clean_title(html.unescape(it.get("evntSumTxt", ""))),
+                "_id": it.get("evntSrno", ""),
+            })
+        if lst[-1].get("addYn") != "Y":
+            break
+        page += 1
+        if page > 30:  # 안전장치 (실제로는 3페이지 내외)
+            break
+    return events
 
 
 def collect_hyundai_privia():
-    # 못 찾음: PRIVIA 전용 도메인/엔드포인트 미확인
-    return []
+    # PRIVIA는 현대카드와 별도 도메인(priviatravel.com)의 자체 여행 서비스.
+    # 프로모션 목록 페이지가 서버 렌더링이라 전체 항목이 최초 응답에 포함됨 (페이징 불필요).
+    # 목록에 기간/설명 정보가 없어 채우지 않음 (추측 금지).
+    events = []
+    r = requests.get(
+        "https://www.priviatravel.com/promotion/promotionList",
+        headers={"User-Agent": UA}, timeout=15,
+    )
+    r.raise_for_status()
+    pattern = re.compile(
+        r'b-id="([^"]*)"[^>]*b-creative="([^"]*)"[^>]*b-position="[^"]*">\s*'
+        r'<a href="\s*([^"]*)"[^>]*>\s*'
+        r'<span class="vis"><img src="([^"]*)"',
+        re.S,
+    )
+    seen_ids = set()
+    for eid, title, link, thumb in pattern.findall(r.text):
+        if eid in seen_ids:
+            continue
+        seen_ids.add(eid)
+        title = clean_title(html.unescape(title))
+        if not is_travel_event(title):
+            continue
+        events.append({
+            "카드사": "현대카드 PRIVIA", "이벤트명": title, "기간": "",
+            "종료일": "", "링크": link.strip(), "썸네일": thumb,
+            "설명": "", "_id": eid,
+        })
+    return events
 
 
 SOURCES = {
@@ -306,9 +379,6 @@ def run_collection():
     for name, fn in SOURCES.items():
         try:
             evs = fn()
-            if not evs and fn in (collect_woori, collect_hyundai_privia):
-                failures.append((name, "엔드포인트 미확인"))
-                continue
             all_events.extend(evs)
             print(f"[수집] {name}: {len(evs)}건", file=sys.stderr)
         except Exception as e:
