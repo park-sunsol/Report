@@ -172,7 +172,7 @@ def collect_lotte():
             events.append({
                 "카드사": "롯데카드", "이벤트명": title, "기간": date.strip(),
                 "종료일": _lotte_end_date(date),
-                "링크": "https://www.lottecard.co.kr/app/LPBNFDA_V100.lc",
+                "링크": f"https://www.lottecard.co.kr/app/LPBNFDA_V300.lc?evnBultSeq={eid}",
                 "썸네일": thumb, "설명": "", "_id": eid,
             })
         param = d.get("Param", {})
