@@ -214,7 +214,7 @@ def collect_samsung():
             events.append({
                 "카드사": "삼성카드", "이벤트명": title, "기간": period,
                 "종료일": f"{edd[:4]}-{edd[4:6]}-{edd[6:]}" if edd else "",
-                "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1401M0.jsp",
+                "링크": f"https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id={it.get('cmpId', '')}",
                 "썸네일": thumb,
                 # cmpSmrCn은 삼성 전 건 공백 (통이미지) - Notion 문서 확인 사항, 채우지 않음
                 "설명": "", "_id": it.get("cmpId", ""),
@@ -241,7 +241,7 @@ def collect_hyundai():
             "카드사": "현대카드", "이벤트명": title,
             "기간": f"{it.get('srtDttm','')}~{it.get('endDttm','')}",
             "종료일": _hyundai_end_date(it.get("endDttm", "")),
-            "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
+            "링크": f"https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd={it.get('bnftWebEvntCd', '')}",
             # 이미지 CDN 베이스 경로 미확인 - 추측으로 채우지 않음
             "썸네일": "", "설명": "", "_id": it.get("bnftEvntSqno", ""),
         })
