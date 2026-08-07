@@ -1,38 +1,4 @@
 {
   "new": [],
-  "ended": [
-    {
-      "카드사": "네이버",
-      "이벤트명": "31%🔻일본, 지금이 최저가",
-      "기간": "",
-      "종료일": "",
-      "링크": "https://travel.naver.co.kr/pkg_pricedrop3#8%EC%9B%94",
-      "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785393912962.png",
-      "설명": "#8월대체휴일추천 #풀패키지 vs 에어텔🏯 #🏆오사카 #후쿠오카 #교토 #소도시",
-      "_id": "ilewhjgn54",
-      "_key": "네이버::ilewhjgn54"
-    },
-    {
-      "카드사": "네이버",
-      "이벤트명": "31%🔻중국·대만·홍콩 베스트",
-      "기간": "",
-      "종료일": "",
-      "링크": "https://travel.naver.co.kr/pkg_pricedrop3#5china",
-      "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785394481757.png",
-      "설명": "#추석엔 가족여행 #효도여행♥️ #🏆장가계 #대만 #홍콩 #마카오",
-      "_id": "c97rg0g8h8",
-      "_key": "네이버::c97rg0g8h8"
-    },
-    {
-      "카드사": "네이버",
-      "이벤트명": "34%🔻유럽 특가 마감임박🚨",
-      "기간": "",
-      "종료일": "",
-      "링크": "https://travel.naver.co.kr/pkg_pricedrop3#5eastasia",
-      "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785395151430.png",
-      "설명": "#10월황금연휴추천 #3일 연차 9일 여행 🌍✈️ #튀르키예 #이탈리아 #프랑스 #스페인 #포르투갈",
-      "_id": "mw5gmxvd1z",
-      "_key": "네이버::mw5gmxvd1z"
-    }
-  ]
+  "ended": []
 }
