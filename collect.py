@@ -214,7 +214,7 @@ def collect_samsung():
             events.append({
                 "카드사": "삼성카드", "이벤트명": title, "기간": period,
                 "종료일": f"{edd[:4]}-{edd[4:6]}-{edd[6:]}" if edd else "",
-                "링크": f"https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id={it.get('cmsId', '')}",
+                "링크": f"https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id={it.get('cmsId', '')}&cmp_id={it.get('cmpId', '')}",
                 "썸네일": thumb,
                 # cmpSmrCn은 삼성 전 건 공백 (통이미지) - Notion 문서 확인 사항, 채우지 않음
                 "설명": "", "_id": it.get("cmpId", ""),
