@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """카드사 여행 프로모션 수집기.
 
-수집 대상: 신한, KB국민, 롯데, 삼성, 현대, 네이버, 우리, 현대카드 PRIVIA (8개 - LLM 개입 없이 requests만으로 동작)
+수집 대상: 경쟁사 8개(신한, KB국민, 롯데, 삼성, 현대, 네이버, 우리, 현대카드 PRIVIA) + 자사 1개(하나카드)
+(LLM 개입 없이 requests만으로 동작)
 
 사용법:
   python3 collect.py --diff          현재 수집 결과를 prev.json과 비교해 [변경] 블록 출력, prev.json 갱신
@@ -172,7 +173,7 @@ def collect_lotte():
             events.append({
                 "카드사": "롯데카드", "이벤트명": title, "기간": date.strip(),
                 "종료일": _lotte_end_date(date),
-                "링크": "https://www.lottecard.co.kr/app/LPBNFDA_A100.lc",
+                "링크": f"https://www.lottecard.co.kr/app/LPBNFDA_V300.lc?evnBultSeq={eid}",
                 "썸네일": thumb, "설명": "", "_id": eid,
             })
         param = d.get("Param", {})
@@ -214,7 +215,7 @@ def collect_samsung():
             events.append({
                 "카드사": "삼성카드", "이벤트명": title, "기간": period,
                 "종료일": f"{edd[:4]}-{edd[4:6]}-{edd[6:]}" if edd else "",
-                "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1401M0.jsp",
+                "링크": f"https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id={it.get('cmsId', '')}&cmp_id=",
                 "썸네일": thumb,
                 # cmpSmrCn은 삼성 전 건 공백 (통이미지) - Notion 문서 확인 사항, 채우지 않음
                 "설명": "", "_id": it.get("cmpId", ""),
@@ -241,7 +242,7 @@ def collect_hyundai():
             "카드사": "현대카드", "이벤트명": title,
             "기간": f"{it.get('srtDttm','')}~{it.get('endDttm','')}",
             "종료일": _hyundai_end_date(it.get("endDttm", "")),
-            "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0001GE01.hc",
+            "링크": f"https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd={it.get('bnftWebEvntCd', '')}",
             # 이미지 CDN 베이스 경로 미확인 - 추측으로 채우지 않음
             "썸네일": "", "설명": "", "_id": it.get("bnftEvntSqno", ""),
         })
@@ -361,7 +362,54 @@ def collect_hyundai_privia():
     return events
 
 
-SOURCES = {
+HANA_ITEM_RE = re.compile(
+    r"GA_Event_Fn\('통합앱_이벤트','#[^']*','(?P<title>[^']*)','',\s*"
+    r"detail\('/MKEVT1010M\.web','(?P<seq>\d+)'\)\).*?"
+    r'<div class="usage-default-title[^"]*">(?P<title2>.*?)</div>\s*'
+    r'<div class="usage-default-etc">\s*<div class="usage-default-etc-item">(?P<period>[^<]*)</div>',
+    re.S,
+)
+
+
+def _hana_end_date(period: str) -> str:
+    m = re.search(r"~\s*(\d{4})\.(\d{2})\.(\d{2})", period)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    return ""
+
+
+def collect_hanacard():
+    # evnCate=00102가 '여행/해외' 탭 필터. 서버가 필터링된 HTML을 그대로 내려주므로
+    # 자바스크립트 실행 불필요, 페이징 없이 목록 전량이 초기 HTML에 들어 있음.
+    # 현대카드와 마찬가지로 legacy TLS 재협상이 필요.
+    s = requests.Session()
+    s.mount("https://", LegacyTLSAdapter())
+    r = s.get(
+        "https://m.hanacard.co.kr/MKEVT1000M.web",
+        params={"evnCate": "00102"}, headers={"User-Agent": UA}, timeout=15,
+    )
+    r.raise_for_status()
+    r.encoding = "euc-kr"
+
+    events = []
+    for m in HANA_ITEM_RE.finditer(r.text):
+        title = clean_title(html.unescape(m.group("title2") or m.group("title") or ""))
+        if not is_travel_event(title):
+            continue
+        seq = m.group("seq")
+        period = re.sub(r"\s+", " ", m.group("period")).strip()
+        events.append({
+            "카드사": "하나카드", "이벤트명": title,
+            "기간": period, "종료일": _hana_end_date(period),
+            "링크": f"https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ={seq}",
+            # 목록 썸네일은 제휴사 로고라 이벤트 구분이 안 됨 - 상세 페이지 .full-contents 첫
+            # img로 별도 수집 필요 (신규 이벤트 push 시 에이전트가 처리)
+            "썸네일": "", "설명": "", "_id": seq,
+        })
+    return events
+
+
+COMPETITOR_SOURCES = {
     "신한카드": collect_shinhan,
     "KB국민카드": collect_kb,
     "롯데카드": collect_lotte,
@@ -372,23 +420,41 @@ SOURCES = {
     "현대카드 PRIVIA": collect_hyundai_privia,
 }
 
+OWN_SOURCES = {
+    "하나카드": collect_hanacard,
+}
+
+# 이벤트 그룹별 적재 대상 DB (경쟁사 DB에 자사를 섞지 않기 위한 태그)
+SOURCE_GROUPS = {
+    "competitor": COMPETITOR_SOURCES,
+    "own": OWN_SOURCES,
+}
+
 
 def run_collection():
     all_events = []
     failures = []
-    for name, fn in SOURCES.items():
-        try:
-            evs = fn()
-            all_events.extend(evs)
-            print(f"[수집] {name}: {len(evs)}건", file=sys.stderr)
-        except Exception as e:
-            failures.append((name, str(e)))
-            print(f"[실패] {name}: {e}", file=sys.stderr)
+    for group, sources in SOURCE_GROUPS.items():
+        for name, fn in sources.items():
+            try:
+                evs = fn()
+                for e in evs:
+                    e["_그룹"] = group
+                all_events.extend(evs)
+                print(f"[수집] {name}: {len(evs)}건", file=sys.stderr)
+            except Exception as e:
+                failures.append((name, str(e)))
+                print(f"[실패] {name}: {e}", file=sys.stderr)
     return all_events, failures
 
 
 def event_key(ev):
     return f"{ev['카드사']}::{ev['_id'] or ev['이벤트명']}"
+
+
+def event_group(ev):
+    # prev.json에 저장된 과거 항목은 _그룹 필드가 없을 수 있으므로 카드사명으로도 판정한다
+    return "own" if ev.get("카드사") in OWN_SOURCES else ev.get("_그룹", "competitor")
 
 
 def main():
@@ -417,10 +483,10 @@ def main():
     print(f"신규: {len(new_events)}건")
     for e in new_events:
         suffix = f" ({e['기간']})" if e["기간"] else ""
-        print(f"  + [{e['카드사']}] {e['이벤트명']}{suffix}")
+        print(f"  + [{event_group(e)}/{e['카드사']}] {e['이벤트명']}{suffix}")
     print(f"종료: {len(ended_events)}건")
     for e in ended_events:
-        print(f"  - [{e['카드사']}] {e['이벤트명']}")
+        print(f"  - [{event_group(e)}/{e['카드사']}] {e['이벤트명']}")
 
     if failures:
         print("\n[실패한 소스]")
@@ -432,9 +498,17 @@ def main():
     )
 
     if args.push:
+        def split(lst):
+            return (
+                [e for e in lst if event_group(e) == "competitor"],
+                [e for e in lst if event_group(e) == "own"],
+            )
+
+        new_competitor, new_own = split(new_events)
+        ended_competitor, ended_own = split(ended_events)
         queue = {
-            "new": new_events,
-            "ended": ended_events,
+            "competitor": {"new": new_competitor, "ended": ended_competitor},
+            "own": {"new": new_own, "ended": ended_own},
         }
         PUSH_QUEUE_PATH.write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"\n-> {PUSH_QUEUE_PATH} 생성됨 (에이전트가 이 파일을 읽어 Notion에 반영)")
