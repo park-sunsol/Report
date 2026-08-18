@@ -21,6 +21,7 @@ import json
 import re
 import ssl
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -286,7 +287,11 @@ def collect_naver():
 
 
 def collect_woori():
+    # wooricard.com이 간헐적으로 connection reset을 던짐 (legacy TLS 재협상을 해도
+    # 완전히 사라지지 않는 산발적 증상) - 짧은 재시도로 흡수.
     events = []
+    s = requests.Session()
+    s.mount("https://", LegacyTLSAdapter())
     url = "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/getPrgEvntList.pwkjson"
     headers = {
         "User-Agent": UA, "Content-Type": "application/json;charset=UTF-8",
@@ -299,7 +304,14 @@ def collect_woori():
             "evntCtgrNo": "", "searchKwrd": "", "sortOrd": "orderNew",
             "pageIndex": str(page), "pageSize": "15", "evntItgCfcd": "",
         }}
-        r = requests.post(url, json=payload, headers=headers, timeout=15)
+        for attempt in range(3):
+            try:
+                r = s.post(url, json=payload, headers=headers, timeout=15)
+                break
+            except requests.exceptions.ConnectionError:
+                if attempt == 2:
+                    raise
+                time.sleep(2)
         r.raise_for_status()
         lst = r.json().get("prgEvntList", [])
         if not lst:
@@ -378,6 +390,35 @@ def _hana_end_date(period: str) -> str:
     return ""
 
 
+# 트래블버킷(항공,호텔,렌터카) 리워드처럼 여러 하위 프로모션을 "프로모션 바로가기"로
+# 묶어 보여주는 허브형 이벤트가 있음. 이 하위 프로모션들은 evnCate=00102(여행/해외) 탭에는
+# 안 걸려서(별도 결제혜택 카테고리로 등록됨) 목록 수집만으로는 빠짐.
+HANA_SUBPROMO_RE = re.compile(
+    r"goLinkWeb\('/MKEVT1010M\.web\?EVN_SEQ=(\d+)'\);\">\s*프로모션 바로가기\s*</a>"
+)
+HANA_DETAIL_TITLE_RE = re.compile(
+    r'<h2 class="title">제목</h2>\s*</div>\s*<p class="basic-text color-blur">(.*?)</p>', re.S
+)
+HANA_DETAIL_PERIOD_RE = re.compile(
+    r'<h2 class="title">기간</h2>\s*</div>\s*<p class="basic-text color-blur">(.*?)</p>', re.S
+)
+
+
+def _hana_fetch_detail(session, seq):
+    r = session.get(
+        "https://m.hanacard.co.kr/MKEVT1010M.web",
+        params={"EVN_SEQ": seq}, headers={"User-Agent": UA}, timeout=15,
+    )
+    r.raise_for_status()
+    r.encoding = "euc-kr"
+    text = r.text
+    title_m = HANA_DETAIL_TITLE_RE.search(text)
+    period_m = HANA_DETAIL_PERIOD_RE.search(text)
+    title = clean_title(html.unescape(title_m.group(1))) if title_m else ""
+    period = re.sub(r"\s+", " ", period_m.group(1)).strip() if period_m else ""
+    return title, period, text
+
+
 def collect_hanacard():
     # evnCate=00102가 '여행/해외' 탭 필터. 서버가 필터링된 HTML을 그대로 내려주므로
     # 자바스크립트 실행 불필요, 페이징 없이 목록 전량이 초기 HTML에 들어 있음.
@@ -392,12 +433,15 @@ def collect_hanacard():
     r.encoding = "euc-kr"
 
     events = []
+    seen_seqs = set()
     for m in HANA_ITEM_RE.finditer(r.text):
         title = clean_title(html.unescape(m.group("title2") or m.group("title") or ""))
-        if not is_travel_event(title):
-            continue
         seq = m.group("seq")
+        if not is_travel_event(title):
+            if "트래블버킷" not in title and "travel bucket" not in title.lower():
+                continue
         period = re.sub(r"\s+", " ", m.group("period")).strip()
+        seen_seqs.add(seq)
         events.append({
             "카드사": "하나카드", "이벤트명": title,
             "기간": period, "종료일": _hana_end_date(period),
@@ -406,6 +450,21 @@ def collect_hanacard():
             # img로 별도 수집 필요 (신규 이벤트 push 시 에이전트가 처리)
             "썸네일": "", "설명": "", "_id": seq,
         })
+        if "트래블버킷" in title or "travel bucket" in title.lower():
+            _, _, detail_html = _hana_fetch_detail(s, seq)
+            for sub_seq in HANA_SUBPROMO_RE.findall(detail_html):
+                if sub_seq in seen_seqs:
+                    continue
+                seen_seqs.add(sub_seq)
+                sub_title, sub_period, _ = _hana_fetch_detail(s, sub_seq)
+                if not sub_title:
+                    continue
+                events.append({
+                    "카드사": "하나카드", "이벤트명": sub_title,
+                    "기간": sub_period, "종료일": _hana_end_date(sub_period),
+                    "링크": f"https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ={sub_seq}",
+                    "썸네일": "", "설명": "", "_id": sub_seq,
+                })
     return events
 
 
