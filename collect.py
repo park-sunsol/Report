@@ -413,26 +413,35 @@ def _hana_fetch_detail(session, seq):
     return title, period, text
 
 
+# 트래블버킷(항공,호텔,렌터카) 메인 페이지 + 하위 서비스 페이지들. 이 페이지들에 실린
+# 프로모션 중 onclick이 GA_Event(...'통합앱_트래블버킷'...)인 것만 트래블버킷 자체
+# 프로모션이고, 같은 페이지에 섞여 나오는 GA_Event_Fn(...'통합앱_공통'...) 배너는 전
+# 페이지 공용 캐러셀이라 트래블버킷과 무관함(예: 일반 결제 이벤트) - GA_Event_Fn과는
+# 별개 신호로 구분. 이 프로모션들은 evnCate=00102(여행/해외) 탭에는 안 걸려서(별도
+# 결제혜택 카테고리로 등록됨) 목록 수집만으로는 빠짐.
+HANA_TRAVELBUCKET_PAGES = [
+    "/MKTRVB0000M.web",  # 메인
+    "/MKTRVB4020M.web",  # 공항라운지 서비스 (현장 할인 - goEventPop 링크)
+    "/MKTRVB0030N.web",  # 사용설명서 (다른 페이지와 겹치는 링크가 많지만 혹시 몰라 포함)
+]
+
+
 def _hana_travelbucket_seqs(session):
-    # 트래블버킷(항공,호텔,렌터카) 메인 페이지. 이 페이지에 실린 프로모션 중
-    # onclick이 GA_Event(...'통합앱_트래블버킷'...)인 것만 트래블버킷 자체 프로모션이고,
-    # 같은 페이지에 섞여 나오는 GA_Event_Fn(...'통합앱_공통'...) 배너는 전 페이지 공용
-    # 캐러셀이라 트래블버킷과 무관함(예: 일반 결제 이벤트) - GA_Event_Fn과는 별개 신호로 구분.
-    # 이 프로모션들은 evnCate=00102(여행/해외) 탭에는 안 걸려서(별도 결제혜택 카테고리로
-    # 등록됨) 목록 수집만으로는 빠짐.
-    r = session.get(
-        "https://m.hanacard.co.kr/MKTRVB0000M.web",
-        headers={"User-Agent": UA}, timeout=15,
-    )
-    r.raise_for_status()
-    r.encoding = "euc-kr"
     seqs = set()
-    for onclick in re.findall(r'onclick="([^"]*)"', r.text):
-        if "트래블버킷" not in onclick:
-            continue
-        m = re.search(r"EVN_SEQ=(\d+)", onclick)
-        if m:
-            seqs.add(m.group(1))
+    for path in HANA_TRAVELBUCKET_PAGES:
+        r = session.get(
+            "https://m.hanacard.co.kr" + path,
+            headers={"User-Agent": UA}, timeout=15,
+        )
+        r.raise_for_status()
+        r.encoding = "euc-kr"
+        text = re.sub(r"<!--.*?-->", "", r.text, flags=re.S)  # 주석 처리된(비활성) 링크 제외
+        for onclick in re.findall(r'onclick="([^"]*)"', text):
+            if "트래블버킷" not in onclick:
+                continue
+            m = re.search(r"EVN_SEQ=(\d+)", onclick) or re.search(r"goEventPop\('(\d+)'", onclick)
+            if m:
+                seqs.add(m.group(1))
     return seqs
 
 
