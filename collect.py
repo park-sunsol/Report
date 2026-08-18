@@ -390,12 +390,6 @@ def _hana_end_date(period: str) -> str:
     return ""
 
 
-# 트래블버킷(항공,호텔,렌터카) 리워드처럼 여러 하위 프로모션을 "프로모션 바로가기"로
-# 묶어 보여주는 허브형 이벤트가 있음. 이 하위 프로모션들은 evnCate=00102(여행/해외) 탭에는
-# 안 걸려서(별도 결제혜택 카테고리로 등록됨) 목록 수집만으로는 빠짐.
-HANA_SUBPROMO_RE = re.compile(
-    r"goLinkWeb\('/MKEVT1010M\.web\?EVN_SEQ=(\d+)'\);\">\s*프로모션 바로가기\s*</a>"
-)
 HANA_DETAIL_TITLE_RE = re.compile(
     r'<h2 class="title">제목</h2>\s*</div>\s*<p class="basic-text color-blur">(.*?)</p>', re.S
 )
@@ -419,6 +413,29 @@ def _hana_fetch_detail(session, seq):
     return title, period, text
 
 
+def _hana_travelbucket_seqs(session):
+    # 트래블버킷(항공,호텔,렌터카) 메인 페이지. 이 페이지에 실린 프로모션 중
+    # onclick이 GA_Event(...'통합앱_트래블버킷'...)인 것만 트래블버킷 자체 프로모션이고,
+    # 같은 페이지에 섞여 나오는 GA_Event_Fn(...'통합앱_공통'...) 배너는 전 페이지 공용
+    # 캐러셀이라 트래블버킷과 무관함(예: 일반 결제 이벤트) - GA_Event_Fn과는 별개 신호로 구분.
+    # 이 프로모션들은 evnCate=00102(여행/해외) 탭에는 안 걸려서(별도 결제혜택 카테고리로
+    # 등록됨) 목록 수집만으로는 빠짐.
+    r = session.get(
+        "https://m.hanacard.co.kr/MKTRVB0000M.web",
+        headers={"User-Agent": UA}, timeout=15,
+    )
+    r.raise_for_status()
+    r.encoding = "euc-kr"
+    seqs = set()
+    for onclick in re.findall(r'onclick="([^"]*)"', r.text):
+        if "트래블버킷" not in onclick:
+            continue
+        m = re.search(r"EVN_SEQ=(\d+)", onclick)
+        if m:
+            seqs.add(m.group(1))
+    return seqs
+
+
 def collect_hanacard():
     # evnCate=00102가 '여행/해외' 탭 필터. 서버가 필터링된 HTML을 그대로 내려주므로
     # 자바스크립트 실행 불필요, 페이징 없이 목록 전량이 초기 HTML에 들어 있음.
@@ -438,8 +455,7 @@ def collect_hanacard():
         title = clean_title(html.unescape(m.group("title2") or m.group("title") or ""))
         seq = m.group("seq")
         if not is_travel_event(title):
-            if "트래블버킷" not in title and "travel bucket" not in title.lower():
-                continue
+            continue
         period = re.sub(r"\s+", " ", m.group("period")).strip()
         seen_seqs.add(seq)
         events.append({
@@ -450,21 +466,17 @@ def collect_hanacard():
             # img로 별도 수집 필요 (신규 이벤트 push 시 에이전트가 처리)
             "썸네일": "", "설명": "", "_id": seq,
         })
-        if "트래블버킷" in title or "travel bucket" in title.lower():
-            _, _, detail_html = _hana_fetch_detail(s, seq)
-            for sub_seq in HANA_SUBPROMO_RE.findall(detail_html):
-                if sub_seq in seen_seqs:
-                    continue
-                seen_seqs.add(sub_seq)
-                sub_title, sub_period, _ = _hana_fetch_detail(s, sub_seq)
-                if not sub_title:
-                    continue
-                events.append({
-                    "카드사": "하나카드", "이벤트명": sub_title,
-                    "기간": sub_period, "종료일": _hana_end_date(sub_period),
-                    "링크": f"https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ={sub_seq}",
-                    "썸네일": "", "설명": "", "_id": sub_seq,
-                })
+
+    for seq in _hana_travelbucket_seqs(s) - seen_seqs:
+        title, period, _ = _hana_fetch_detail(s, seq)
+        if not title:
+            continue
+        events.append({
+            "카드사": "하나카드", "이벤트명": title,
+            "기간": period, "종료일": _hana_end_date(period),
+            "링크": f"https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ={seq}",
+            "썸네일": "", "설명": "", "_id": seq,
+        })
     return events
 
 
