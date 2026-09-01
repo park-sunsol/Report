@@ -12,6 +12,17 @@
   },
   {
     "카드사": "신한카드",
+    "이벤트명": "시그니엘, 라운지 & 베이커리 프로모션",
+    "기간": "2026.08.18~2026.10.30",
+    "종료일": "2026-10-30",
+    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/2014052_2239.html",
+    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/08/14/20260803589284_list.png",
+    "설명": "",
+    "_id": "2026080312HMPG",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "신한카드",
     "이벤트명": "황금연휴 일본 여행 최대 7% 할인!",
     "기간": "2026.08.10~2026.10.31",
     "종료일": "2026-10-31",
@@ -19,28 +30,6 @@
     "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/08/05/20260730632639_list.png",
     "설명": "",
     "_id": "2026073015HMPG",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "신한카드",
-    "이벤트명": "준비부터 설레는 여행 필수템 특가",
-    "기간": "2026.08.03~2026.08.23",
-    "종료일": "2026-08-23",
-    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/2013945_2239.html",
-    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/07/31/20260723573193_list.png",
-    "설명": "",
-    "_id": "2026072802HMPG",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "신한카드",
-    "이벤트명": "여름 여행비용 절약 이벤트",
-    "기간": "2026.08.03~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/2013965_2239.html",
-    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/08/03/20260721615951_list.png",
-    "설명": "",
-    "_id": "2026072115HMPG",
     "_그룹": "competitor"
   },
   {
@@ -63,17 +52,6 @@
     "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/07/15/20260629540438_list.png",
     "설명": "",
     "_id": "2026062908HMPG",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "신한카드",
-    "이벤트명": "라운지&바 테라스 292 서머 페어링",
-    "기간": "2026.07.16~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/2013738_2239.html",
-    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/07/16/20260629389579_list_v2.png",
-    "설명": "",
-    "_id": "2026062904HMPG",
     "_그룹": "competitor"
   },
   {
@@ -133,17 +111,6 @@
   },
   {
     "카드사": "신한카드",
-    "이벤트명": "해외에서 결제하면 10% 즉시할인!",
-    "기간": "2026.05.08~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/1238907_2239.html",
-    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/05/07/20260423391687_thumb.png",
-    "설명": "",
-    "_id": "2026042302HMPG",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "신한카드",
     "이벤트명": "호텔 최대 15% 항공 최대 10% 할인",
     "기간": "2026.04.27~2026.09.30",
     "종료일": "2026-09-30",
@@ -151,17 +118,6 @@
     "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/04/21/20260417627028_list.png",
     "설명": "",
     "_id": "2026041711HMPG",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "신한카드",
-    "이벤트명": "일본 여행 갈 때 신한 유니온페이 카드로",
-    "기간": "2026.05.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.shinhancard.com/pconts/html/benefit/event/1237735_2239.html",
-    "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/02/20/260226_union_list.png",
-    "설명": "",
-    "_id": "2026041309HMPG",
     "_그룹": "competitor"
   },
   {
@@ -244,8 +200,8 @@
   {
     "카드사": "신한카드",
     "이벤트명": "참좋은여행 최대 8%",
-    "기간": "2026.03.09~2026.08.31",
-    "종료일": "2026-08-31",
+    "기간": "2026.03.09~2026.12.31",
+    "종료일": "2026-12-31",
     "링크": "https://www.shinhancard.com/pconts/html/benefit/event/1235827_2239.html",
     "썸네일": "https://www.shinhancard.com/pconts/html/benefit/event/__icsFiles/afieldfile/2026/06/02/20260410517958_list.png",
     "설명": "",
@@ -309,13 +265,79 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "해외이용하면 최대 100만원 혜택!",
-    "기간": "2026.08.14~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001781",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260527-global100-olive.png",
+    "이벤트명": "숲 여행도 그린카드 숲 여행 하고 경품까지!",
+    "기간": "2026.09.01~2026.11.30",
+    "종료일": "2026-11-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001948",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260827_forest-olive.png",
     "설명": "",
-    "_id": "1001781",
+    "_id": "1001948",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "스카이패스 티타늄 카드 3천 마일리지 적립",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001939",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250417_skypass_blue.png",
+    "설명": "",
+    "_id": "1001939",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "국제선 항공권 청구할인 With 와이페이모어",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001934",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/241220_whypaymore_orange.png",
+    "설명": "",
+    "_id": "1001934",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "돌아온 해외이용수수료 최대 100만 포인트백!",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001907",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250623_point100_blue.png",
+    "설명": "",
+    "_id": "1001907",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "독점! 더 런더너 호텔 3+1박&음료&룸크레딧",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001892",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260820-londoner-orange.png",
+    "설명": "",
+    "_id": "1001892",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "일본 공항 면세점 최대 10% 페이백",
+    "기간": "2026.09.01~2026.10.31",
+    "종료일": "2026-10-31",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001884",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250519_japanDuttyfree_red.png",
+    "설명": "",
+    "_id": "1001884",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "KB국민카드",
+    "이벤트명": "마스터카드 호텔스닷컴 최대 13% 즉시할인",
+    "기간": "2026.08.10~2027.01.31",
+    "종료일": "2027-01-31",
+    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001757",
+    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250312_hotels.com_purple.png",
+    "설명": "",
+    "_id": "1001757",
     "_그룹": "competitor"
   },
   {
@@ -331,42 +353,9 @@
   },
   {
     "카드사": "KB국민카드",
-    "이벤트명": "국제선 항공권 청구할인 With 와이페이모어",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001676",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/241220_whypaymore_orange.png",
-    "설명": "",
-    "_id": "1001676",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "스카이패스 티타늄 카드 3천 마일리지 적립",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001649",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250417_skypass_blue.png",
-    "설명": "",
-    "_id": "1001649",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "돌아온 해외이용수수료 최대 100만 포인트백!",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001630",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250623_point100_blue.png",
-    "설명": "",
-    "_id": "1001630",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
     "이벤트명": "크루즈 여행도 KB트래블러스로!",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
+    "기간": "2026.08.01~2026.09.30",
+    "종료일": "2026-09-30",
     "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001629",
     "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260727_KBtravelCR_purple.png",
     "설명": "",
@@ -393,50 +382,6 @@
     "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260714-hotel-brown.png",
     "설명": "",
     "_id": "1001529",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "버진애틀랜틱항공 7%할인 더 합리적인 영국 여행!",
-    "기간": "2026.07.20~2026.08.23",
-    "종료일": "2026-08-23",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001507",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260714-atlantic-blue.png",
-    "설명": "",
-    "_id": "1001507",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "여행상품권 당첨!되면 뭐하고 싶으세요?",
-    "기간": "2026.07.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001476",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/260701_hanatour_mint.png",
-    "설명": "",
-    "_id": "1001476",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "일본 공항 면세점 최대 10% 페이백",
-    "기간": "2026.07.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1001430",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250519_japanDuttyfree_red.png",
-    "설명": "",
-    "_id": "1001430",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "유니온페이 해외 10% 즉시할인",
-    "기간": "2026.05.16~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1000981",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250828_Unionpay_purple.png",
-    "설명": "",
-    "_id": "1000981",
     "_그룹": "competitor"
   },
   {
@@ -481,17 +426,6 @@
     "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/251029_QUTAR_pink.png",
     "설명": "",
     "_id": "1000332",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "KB국민카드",
-    "이벤트명": "8월 해외 이벤트 봐주실 때까지 파라파라나 춰야지",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://card.kbcard.com/BON/DVIEW/HBBMCXCRVNEC0001?mainCC=a&eventNum=1000177",
-    "썸네일": "https://img1.kbcard.com/ST/img/ubb/mgr/event/250917_Travel_blue.png",
-    "설명": "",
-    "_id": "1000177",
     "_그룹": "competitor"
   },
   {
@@ -551,6 +485,17 @@
   },
   {
     "카드사": "롯데카드",
+    "이벤트명": "여행사 · 항공사 업종 무이자/부분 무이자 할부 혜택",
+    "기간": "2026.09.01 ~ 2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.lottecard.co.kr/app/LPBNFDA_V300.lc?evnBultSeq=11249",
+    "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20260828164038_7802_여행사,항공사업종무이자할부_PC_310x200.png",
+    "설명": "",
+    "_id": "11249",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "롯데카드",
     "이벤트명": "힐튼 아너스 아멕스 카드 주말 숙박권 & 등급 업그레이드",
     "기간": "2025.09.01 ~ 2026.12.31",
     "종료일": "2026-12-31",
@@ -573,17 +518,6 @@
   },
   {
     "카드사": "롯데카드",
-    "이벤트명": "여행사 · 항공사 업종 무이자/부분 무이자 할부 혜택",
-    "기간": "2026.07.01 ~ 2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.lottecard.co.kr/app/LPBNFDA_V300.lc?evnBultSeq=11186",
-    "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20260629094709_7431_여행사,항공사업종무이자할부_PC_310x200.png",
-    "설명": "",
-    "_id": "11186",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "롯데카드",
     "이벤트명": "롯데, 신라아이파크 면세점 5~15% 할인 혜택",
     "기간": "2026.07.01 ~ 2026.12.31",
     "종료일": "2026-12-31",
@@ -591,6 +525,17 @@
     "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20241231155731_4621_롯데,신라아이파크면세점_pc_310x200.png",
     "설명": "",
     "_id": "7638",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "롯데카드",
+    "이벤트명": "호텔스닷컴에서 롯데 마스터카드로 호텔 예약하면 최대 13% 즉시할인",
+    "기간": "2026.08.01 ~ 2027.01.31",
+    "종료일": "2027-01-31",
+    "링크": "https://www.lottecard.co.kr/app/LPBNFDA_V300.lc?evnBultSeq=11239",
+    "썸네일": "https://image.lottecard.co.kr/UploadFiles/event/PC_BN_20260818140055_7713_호텔스닷컴즉시할인이벤트_pc_310x200.png",
+    "설명": "",
+    "_id": "11239",
     "_그룹": "competitor"
   },
   {
@@ -606,178 +551,13 @@
   },
   {
     "카드사": "삼성카드",
-    "이벤트명": "면세점에서 삼성카드 쓰면 최대 6만원 할인",
-    "기간": "2026.08.18~2026.08.28",
-    "종료일": "2026-08-28",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751806&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/31/P_thumb_286x275_1.png",
+    "이벤트명": "신세계면세점 온라인몰 최대 10만원 할인",
+    "기간": "2026.09.01~2026.09.09",
+    "종료일": "2026-09-09",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3754329&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/28/P_thumb_286x275_8.png",
     "설명": "",
-    "_id": "M261106557",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "호텔 예약은 호텔패스 해외호텔 7% 즉시할인!",
-    "기간": "2026.03.17~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3738487&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/12/P_thumb_286x275_1.png",
-    "설명": "",
-    "_id": "M261103961",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "삼성카드와 떠나는 여행! 최대 5% 할인",
-    "기간": "2026.04.15~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3744484&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/05/04/P_thumb_286x275_15.png",
-    "설명": "",
-    "_id": "M261104998",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "숙박 최대 10% 할인! 혜택받고 떠나는 여행",
-    "기간": "2026.05.12~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3743895&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/13/P_thumb_286x275_1.png",
-    "설명": "",
-    "_id": "M261104899",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "국내는 물론 해외까지 호텔스닷컴 7% 할인",
-    "기간": "2026.05.27~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3744959&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/05/18/P_thumb_286x275_4.png",
-    "설명": "",
-    "_id": "M261105066",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "프리미엄카드 회원 전용 서울신라호텔 특별 혜택",
-    "기간": "2026.07.28~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3748370&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/06/25/P_thumb_286x275_5.png",
-    "설명": "",
-    "_id": "M261105748",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "롯데면세점 LDF PAY 최대 20만 적립 혜택",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751812&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/29/P_thumb_286x275_14.png",
-    "설명": "",
-    "_id": "M261106564",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "H.oney가 쏟아지는 현대면세점 쇼핑 혜택",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751811&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/29/P_thumb_286x275_12.png",
-    "설명": "",
-    "_id": "M261106561",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "면세 쇼핑은 신세계! 포인트 혜택까지",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751810&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/31/P_thumb_286x275_2.png",
-    "설명": "",
-    "_id": "M261106560",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "신라면세점 방문하면 최대 20만원 쇼핑 혜택",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751808&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/31/P_thumb_286x275_4.png",
-    "설명": "",
-    "_id": "M261106558",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "여행/항공/면세점 최대 3개월 무이자할부",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751495&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/27/P_thumb_286x275_7.png",
-    "설명": "",
-    "_id": "M261106463",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "최대 23만원 혜택 하나투어 여행 찬스",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751494&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/29/P_thumb_286x275_2.png",
-    "설명": "",
-    "_id": "M261106461",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "삼성 아멕스카드 해외 이용 혜택",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751679&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/29/P_thumb_286x275_9.png",
-    "설명": "",
-    "_id": "M261106433",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "Visa 삼성카드 해외 최대 100만원 캐시백",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751676&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/29/P_thumb_286x275_8.png",
-    "설명": "",
-    "_id": "M261106432",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "특가에 최대 7% 할인! 호텔스닷컴 예약하기",
-    "기간": "2026.08.03~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3752021&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/30/P_thumb_286x275_10.png",
-    "설명": "",
-    "_id": "M261106575",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "숙박 최대 10% 할인 호텔예약은 아고다",
-    "기간": "2026.08.13~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3744486&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/20/P_thumb_286x275_5.png",
-    "설명": "",
-    "_id": "M261105000",
+    "_id": "M261107066",
     "_그룹": "competitor"
   },
   {
@@ -859,17 +639,6 @@
   },
   {
     "카드사": "삼성카드",
-    "이벤트명": "요즘 핫한 인기호텔 아고다 최대 10% 할인",
-    "기간": "2026.07.01~2026.09.30",
-    "종료일": "2026-09-30",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3745525&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/20/P_thumb_286x275_6.png",
-    "설명": "",
-    "_id": "M261105124",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
     "이벤트명": "모니모페이로 해외결제 시 최대 2만 모니머니",
     "기간": "2026.08.01~2026.09.30",
     "종료일": "2026-09-30",
@@ -892,13 +661,68 @@
   },
   {
     "카드사": "삼성카드",
-    "이벤트명": "해외 등록금 결제 시 최대 300만원 혜택",
+    "이벤트명": "해외 등록금 결제 시 최대 400만원 혜택",
     "기간": "2026.08.03~2026.09.30",
     "종료일": "2026-09-30",
     "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3750796&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/04/P_thumb_286x275_1.png",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/28/P_thumb_286x275_20.png",
     "설명": "",
     "_id": "M261106264",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "UnionPay 해외 등록금 결제 시 수수료 혜택",
+    "기간": "2026.08.24~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3752619&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/26/P_thumb_286x275_9.png",
+    "설명": "",
+    "_id": "M261106688",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "롯데면세점 LDF PAY 최대 20만 적립 혜택",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3754333&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/27/P_thumb_286x275_7.png",
+    "설명": "",
+    "_id": "M261107070",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "최대 23만원 혜택 하나투어 여행 찬스",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753949&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/27/P_thumb_286x275_12.png",
+    "설명": "",
+    "_id": "M261106964",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "삼성 아멕스카드 해외 이용 혜택",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753580&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/24/P_thumb_286x275_4.png",
+    "설명": "",
+    "_id": "M261106895",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "Visa 삼성카드 해외 최대 100만원 캐시백",
+    "기간": "2026.09.01~2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753586&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/24/P_thumb_286x275_3.png",
+    "설명": "",
+    "_id": "M261106894",
     "_그룹": "competitor"
   },
   {
@@ -910,6 +734,61 @@
     "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/30/P_thumb_286x275_14.png",
     "설명": "",
     "_id": "M261106542",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "요즘 핫한 인기호텔 아고다 최대 10% 할인",
+    "기간": "2026.08.19~2026.10.31",
+    "종료일": "2026-10-31",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753070&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/14/P_thumb_286x275_3.png",
+    "설명": "",
+    "_id": "M261106736",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "숙박 최대 10% 할인 호텔예약은 아고다",
+    "기간": "2026.09.01~2026.10.31",
+    "종료일": "2026-10-31",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753975&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/26/P_thumb_286x275_2.png",
+    "설명": "",
+    "_id": "M261106977",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "호텔 예약은 호텔패스 해외호텔 7% 즉시할인!",
+    "기간": "2026.08.19~2026.11.30",
+    "종료일": "2026-11-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753052&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/13/P_thumb_286x275_2.png",
+    "설명": "",
+    "_id": "M261106727",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "국내는 물론 해외까지 호텔스닷컴 7% 할인",
+    "기간": "2026.08.21~2026.11.30",
+    "종료일": "2026-11-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753225&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/19/P_thumb_286x275_1.png",
+    "설명": "",
+    "_id": "M261106773",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
+    "이벤트명": "숙박 최대 10% 할인! 혜택받고 떠나는 여행",
+    "기간": "2026.08.21~2026.11.30",
+    "종료일": "2026-11-30",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753210&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/19/P_thumb_286x275.png",
+    "설명": "",
+    "_id": "M261106763",
     "_그룹": "competitor"
   },
   {
@@ -947,6 +826,17 @@
   },
   {
     "카드사": "삼성카드",
+    "이벤트명": "삼성카드와 떠나는 여행! 최대 5% 할인",
+    "기간": "2026.09.01~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3753450&cmp_id=",
+    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/08/20/P_thumb_286x275_11.png",
+    "설명": "",
+    "_id": "M261106862",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "삼성카드",
     "이벤트명": "JCB 일본여행 20% 캐시백",
     "기간": "2026.04.01~2027.03.31",
     "종료일": "2027-03-31",
@@ -968,47 +858,25 @@
     "_그룹": "competitor"
   },
   {
-    "카드사": "삼성카드",
-    "이벤트명": "신세계면세점 온라인몰 최대 10만원 할인",
-    "기간": "2026.08.01~2026.08.09",
-    "종료일": "2026-08-09",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3751809&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/31/P_thumb_286x275_3.png",
+    "카드사": "현대카드",
+    "이벤트명": "대한항공카드가 준비한 혜택 3천 마일리지 + 최대 24만원 캐시백",
+    "기간": "2026. 9. 1~2026. 9. 30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=SK1020",
+    "썸네일": "",
     "설명": "",
-    "_id": "M261106559",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "삼성카드",
-    "이벤트명": "롯데면세점 최대 10% 즉시할인",
-    "기간": "2026.08.01~2026.08.17",
-    "종료일": "2026-08-17",
-    "링크": "https://www.samsungcard.com/personal/event/ing/UHPPBE1403M0.jsp?cms_id=3752282&cmp_id=",
-    "썸네일": "https://static11.samsungcard.com/wcms/event/general_v2/__icsFiles/afieldfile/2026/07/31/P_thumb_286x275_5.png",
-    "설명": "",
-    "_id": "M261106563",
+    "_id": "0000000878",
     "_그룹": "competitor"
   },
   {
     "카드사": "현대카드",
     "이벤트명": "대한항공카드 이벤트 3천 마일리지 + 12만원 캐시백",
-    "기간": "2026. 8. 1~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=5G1010",
+    "기간": "2026. 9. 1~2026. 9. 30",
+    "종료일": "2026-09-30",
+    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=0U1021",
     "썸네일": "",
     "설명": "",
-    "_id": "0000000870",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드",
-    "이벤트명": "대한항공카드가 준비한 혜택 3천 마일리지 + 최대 24만원 캐시백",
-    "기간": "2026. 8. 1~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=2B1008",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000869",
+    "_id": "0000000877",
     "_그룹": "competitor"
   },
   {
@@ -1089,72 +957,6 @@
     "_그룹": "competitor"
   },
   {
-    "카드사": "현대카드",
-    "이벤트명": "롯데손해보험 해외여행자보험 최대 3만 M포인트 사용",
-    "기간": "2025. 11. 20~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=CSO893",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000762",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드",
-    "이벤트명": "롯데손해보험 골프보험 최대 3만 M포인트 사용",
-    "기간": "2025. 11. 20~2026. 8. 31",
-    "종료일": "2026-08-31",
-    "링크": "https://www.hyundaicard.com/cpb/ev/CPBEV0101_06.hc?bnftWebEvntCd=2JT892",
-    "썸네일": "",
-    "설명": "",
-    "_id": "0000000761",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "23%🔻유럽 100만원대⚡",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://travel.naver.co.kr/pkg_pricedrop3#5eastasia",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785395151430.png",
-    "설명": "#10월황금연휴추천 #3일 연차 9일 여행 🌍✈️ #튀르키예 #이탈리아 #프랑스 #스페인 #포르투갈",
-    "_id": "mw5gmxvd1z",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "43%🔻동남아 최대 할인중",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://travel.naver.co.kr/pkg_pricedrop3#6eastasia",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1786493260740.png",
-    "설명": "#언제 가도 실패 없는 동남아🏖️ #싱가포르 #보라카이 #다낭 #보홀 #푸꾸옥",
-    "_id": "iz569l1c7d",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "35%🔻일본, 지금이 최저가",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://travel.naver.co.kr/pkg_pricedrop3#8%EC%9B%94",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785393912962.png",
-    "설명": "#8월대체휴일추천 #풀패키지 vs 에어텔🏯 #🏆오사카 #후쿠오카 #교토 #소도시",
-    "_id": "ilewhjgn54",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "네이버",
-    "이벤트명": "32%🔻중국·대만·홍콩 베스트",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://travel.naver.co.kr/pkg_pricedrop3#5china",
-    "썸네일": "https://techminds.pstatic.net/pkgtour/hotDeal/production/images/im-1785394481757.png",
-    "설명": "#추석엔 가족여행 #효도여행♥️ #🏆장가계 #대만 #홍콩 #마카오",
-    "_id": "c97rg0g8h8",
-    "_그룹": "competitor"
-  },
-  {
     "카드사": "우리카드",
     "이벤트명": "분할납부 이용해서 해외 여행 부담없이 다녀오세요",
     "기간": "2026.02.24~2026.12.31",
@@ -1167,6 +969,28 @@
   },
   {
     "카드사": "우리카드",
+    "이벤트명": "해외 캐시백 챌린지 : 목표달성 이벤트",
+    "기간": "2026.08.26~2026.10.31",
+    "종료일": "2026-10-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006239",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/8/26/4cd30c07-9c92-47a5-bca8-787de58eeb2b.png",
+    "설명": "해외 결제 목표 달성하면? 달성 보상금 캐시백 지급!",
+    "_id": "30006239",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "우리카드",
+    "이벤트명": "라이나손해보험(에이스손보) 해외여행보험",
+    "기간": "2026.09.01~2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005698",
+    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/4/20/9f89e40f-1f49-4ea6-85ee-2cf56a897d4c.png",
+    "설명": "힐링하러 가는 여행, 복잡한 건 싫으니까- 간편하게 가입하고 걱정없이 다녀오세요!",
+    "_id": "30005698",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "우리카드",
     "이벤트명": "위비트래블과 함께라면 <BR> 신라면세점에서도 꿀같은 할인 혜택!",
     "기간": "2026.08.13~2027.08.31",
     "종료일": "2027-08-31",
@@ -1174,28 +998,6 @@
     "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2024/9/27/7123a09f-4104-402f-b797-e990146999b0.png",
     "설명": "신라면세점 쿠폰북부터 추가 할인 혜택까지!",
     "_id": "30003518",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "우리카드",
-    "이벤트명": "해외에서 SUPER 이용하고 최대 150만원 SUPER한 할인 혜택까지",
-    "기간": "2026.08.01~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006138",
-    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/7/30/0a3a5eb6-daaf-41fc-b5f3-edc7fb0af1f8.png",
-    "설명": "",
-    "_id": "30006138",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "우리카드",
-    "이벤트명": "라이나손해보험(에이스손보) 해외여행보험",
-    "기간": "2026.08.01~2026.12.31",
-    "종료일": "2026-12-31",
-    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30005698",
-    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/4/20/9f89e40f-1f49-4ea6-85ee-2cf56a897d4c.png",
-    "설명": "힐링하러 가는 여행, 복잡한 건 싫으니까- 간편하게 가입하고 걱정없이 다녀오세요!",
-    "_id": "30005698",
     "_그룹": "competitor"
   },
   {
@@ -1218,17 +1020,6 @@
     "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/6/29/ce438418-0fef-4729-b1fb-116bb6a9938a.png",
     "설명": "우버(Uber) / 그랩(Grab) / DiDi(디디) 해외에서 택시타고 캐시백 받아가세요!",
     "_id": "30006051",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "우리카드",
-    "이벤트명": "해외QR결제! 쉽고 편리한데 투썸플레이스 아메리카노까지?!",
-    "기간": "2026.06.18~2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://pc.wooricard.com/dcpc/yh1/bnf/bnf02/prgevnt/movePrgEvntDtl.do?evntSrno=30006024",
-    "썸네일": "https://pc.wooricard.com/webcontent/evntFileList/2026/6/16/3634fd21-873a-4b53-a881-1205b7479e0a.png",
-    "설명": "해외QR결제 특화카드 ‘카드의정석2 ExK체크카드‘ 첫 결제 시 1,000분께 아메리카노 쿠폰을 드립니다.",
-    "_id": "30006024",
     "_그룹": "competitor"
   },
   {
@@ -1288,6 +1079,50 @@
   },
   {
     "카드사": "현대카드 PRIVIA",
+    "이벤트명": "9월 한정 일본 호텔 라스트 미닛 특가",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/marketing/collabo",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/27/158074/c0b0a96b-33ae-48a4-9344-4a9fe7834f5d",
+    "설명": "",
+    "_id": "collabo",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "대한항공 멜버른 신규 취항 기념 특별 할인 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9054/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/26/158063/8fa7bf4e-4ef2-4771-bacb-33d2a0cc557e",
+    "설명": "",
+    "_id": "9054",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "알래스카항공 미국 인기 노선 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9047/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/24/158047/6d719dca-2a90-4872-9995-cb12d1c21ae7",
+    "설명": "",
+    "_id": "9047",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "루프트한자 독일항공 유럽 인기 도시 특별 할인 이벤트",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9032/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/12/157992/c69218d2-2def-49ec-92b5-e1030aaeca72",
+    "설명": "",
+    "_id": "9032",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
     "이벤트명": "대한항공 중국/홍콩/대만/몽골 인기 노선 특가 프로모션",
     "기간": "",
     "종료일": "",
@@ -1332,46 +1167,13 @@
   },
   {
     "카드사": "현대카드 PRIVIA",
-    "이벤트명": "대한항공 미국 로스앤젤레스 & 시애틀 특별 할인 이벤트",
+    "이벤트명": "중국남방항공 전 노선 특별 할인 이벤트",
     "기간": "",
     "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/9005/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/29/157895/69217ea9-5b2a-4d1a-bb09-afa355f79360",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8979/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/12/157984/616d347c-2057-4879-bce8-9b73d523bf5a",
     "설명": "",
-    "_id": "9005",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드 PRIVIA",
-    "이벤트명": "대한항공 X 델타항공 미주 인기 노선 특별 할인 이벤트",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8997/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/27/157870/4dc43cec-c8fb-454f-924e-2b69fdffb891",
-    "설명": "",
-    "_id": "8997",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드 PRIVIA",
-    "이벤트명": "대한항공 유럽/대양주 주요 도시 특별 할인 이벤트",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8982/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/22/157844/9e13dbfc-ecc3-475b-998c-9f1f3d0f1db3",
-    "설명": "",
-    "_id": "8982",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드 PRIVIA",
-    "이벤트명": "스쿠트항공 동남아 & 대양주 특별 할인 이벤트",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8969/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/20/157829/c54b4bde-976a-4618-8d7f-1122a314b19e",
-    "설명": "",
-    "_id": "8969",
+    "_id": "8979",
     "_그룹": "competitor"
   },
   {
@@ -1409,28 +1211,6 @@
   },
   {
     "카드사": "현대카드 PRIVIA",
-    "이벤트명": "제주항공 8월 JJ위크 전 노선 단독 특가 프로모션",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8897/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/04/157596/1fdeebf6-4d90-438e-b325-95066b51bd5c",
-    "설명": "",
-    "_id": "8897",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드 PRIVIA",
-    "이벤트명": "루프트한자 독일항공 유럽 주요 도시 얼리버드 특가 프로모션",
-    "기간": "",
-    "종료일": "",
-    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8893/",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/02/157583/ad651082-6f77-4eab-82c3-3bf2342033ca",
-    "설명": "",
-    "_id": "8893",
-    "_그룹": "competitor"
-  },
-  {
-    "카드사": "현대카드 PRIVIA",
     "이벤트명": "일본 쇼핑 쿠폰북, 여행 가기 전 저장 필수!",
     "기간": "",
     "종료일": "",
@@ -1438,6 +1218,17 @@
     "썸네일": "https://static.priviatravel.com/UPLOAD//2026/06/02/157580/44fc6ff3-119b-4757-a036-567c436ea71b",
     "설명": "",
     "_id": "2147",
+    "_그룹": "competitor"
+  },
+  {
+    "카드사": "현대카드 PRIVIA",
+    "이벤트명": "이스타항공 26/27년 출발 얼리버드 특가 프로모션",
+    "기간": "",
+    "종료일": "",
+    "링크": "https://www.priviatravel.com/promotion/sectionEvent/8877/",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/05/27/157539/4f3eb5a3-370f-4b44-98a9-b9821fc60d3b",
+    "설명": "",
+    "_id": "8877",
     "_그룹": "competitor"
   },
   {
@@ -1475,11 +1266,11 @@
   },
   {
     "카드사": "현대카드 PRIVIA",
-    "이벤트명": "8·9·10·11월 할인 호텔 선착순 쿠폰팩",
+    "이벤트명": "해외호텔 예약자 대상 즉시 할인 쿠폰",
     "기간": "",
     "종료일": "",
     "링크": "https://mw.priviatravel.com/promotion/sectionEvent/ts/2081",
-    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/07/27/157407/a46f4bf8-4b2b-4d52-9ced-2dfe01051b6d",
+    "썸네일": "https://static.priviatravel.com/UPLOAD//2026/08/28/157407/4d2d7673-2985-41ad-9dd5-ce00242eed15",
     "설명": "",
     "_id": "2081",
     "_그룹": "competitor"
@@ -1739,6 +1530,28 @@
   },
   {
     "카드사": "하나카드",
+    "이벤트명": "올해 여행은 트래블로그와!",
+    "기간": "2026.09.01 ~ 2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=60487",
+    "썸네일": "",
+    "설명": "",
+    "_id": "60487",
+    "_그룹": "own"
+  },
+  {
+    "카드사": "하나카드",
+    "이벤트명": "여행 혜택",
+    "기간": "2026.09.01 ~ 2026.09.30",
+    "종료일": "2026-09-30",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=60536",
+    "썸네일": "",
+    "설명": "",
+    "_id": "60536",
+    "_그룹": "own"
+  },
+  {
+    "카드사": "하나카드",
     "이벤트명": "라운지 이용권 한번에 3장 받기!",
     "기간": "2026.08.10 ~ 2026.11.30",
     "종료일": "2026-11-30",
@@ -1746,17 +1559,6 @@
     "썸네일": "",
     "설명": "",
     "_id": "60503",
-    "_그룹": "own"
-  },
-  {
-    "카드사": "하나카드",
-    "이벤트명": "여행 혜택",
-    "기간": "2026.08.01 ~ 2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=60484",
-    "썸네일": "",
-    "설명": "",
-    "_id": "60484",
     "_그룹": "own"
   },
   {
@@ -1783,17 +1585,6 @@
   },
   {
     "카드사": "하나카드",
-    "이벤트명": "올해 여행은 트래블로그와!",
-    "기간": "2026.08.01 ~ 2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=60487",
-    "썸네일": "",
-    "설명": "",
-    "_id": "60487",
-    "_그룹": "own"
-  },
-  {
-    "카드사": "하나카드",
     "이벤트명": "해외에서 사용하면 1만 하나머니!",
     "기간": "2026.06.22 ~ 2026.12.31",
     "종료일": "2026-12-31",
@@ -1801,28 +1592,6 @@
     "썸네일": "",
     "설명": "",
     "_id": "60430",
-    "_그룹": "own"
-  },
-  {
-    "카드사": "하나카드",
-    "이벤트명": "내 여행지에 딱 맞춘 해외 혜택, 시원하게 최대로!",
-    "기간": "2026.06.15 ~ 2026.08.31",
-    "종료일": "2026-08-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=60416",
-    "썸네일": "",
-    "설명": "",
-    "_id": "60416",
-    "_그룹": "own"
-  },
-  {
-    "카드사": "하나카드",
-    "이벤트명": "렌터카 예약시 최대 2만원 즉시할인",
-    "기간": "2026.01.01 ~ 2026.12.31",
-    "종료일": "2026-12-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8657",
-    "썸네일": "",
-    "설명": "",
-    "_id": "8657",
     "_그룹": "own"
   },
   {
@@ -1838,24 +1607,35 @@
   },
   {
     "카드사": "하나카드",
-    "이벤트명": "국내외호텔 최대 10% 즉시할인",
-    "기간": "2025.01.01 ~ 2026.12.31",
-    "종료일": "2026-12-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=7659",
+    "이벤트명": "트래블버킷 결제 시 최대 3% 적립!",
+    "기간": "2025.07.17 ~ 2026.07.16",
+    "종료일": "2026-07-16",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8815",
     "썸네일": "",
     "설명": "",
-    "_id": "7659",
+    "_id": "8815",
     "_그룹": "own"
   },
   {
     "카드사": "하나카드",
-    "이벤트명": "KTX 최대 15% 혜택",
+    "이벤트명": "트래블로그 PRESTIGE 시즌서비스 기프트 마일리지 5천 Mile",
     "기간": "2026.01.01 ~ 2026.12.31",
     "종료일": "2026-12-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8272",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8086",
     "썸네일": "",
     "설명": "",
-    "_id": "8272",
+    "_id": "8086",
+    "_그룹": "own"
+  },
+  {
+    "카드사": "하나카드",
+    "이벤트명": "렌터카 예약시 최대 2만원 즉시할인",
+    "기간": "2026.01.01 ~ 2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8657",
+    "썸네일": "",
+    "설명": "",
+    "_id": "8657",
     "_그룹": "own"
   },
   {
@@ -1867,6 +1647,17 @@
     "썸네일": "",
     "설명": "",
     "_id": "8027",
+    "_그룹": "own"
+  },
+  {
+    "카드사": "하나카드",
+    "이벤트명": "국내외호텔 최대 10% 즉시할인",
+    "기간": "2025.01.01 ~ 2026.12.31",
+    "종료일": "2026-12-31",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=7659",
+    "썸네일": "",
+    "설명": "",
+    "_id": "7659",
     "_그룹": "own"
   },
   {
@@ -1893,24 +1684,13 @@
   },
   {
     "카드사": "하나카드",
-    "이벤트명": "트래블버킷 결제 시 최대 3% 적립!",
-    "기간": "2025.07.17 ~ 2026.07.16",
-    "종료일": "2026-07-16",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8815",
-    "썸네일": "",
-    "설명": "",
-    "_id": "8815",
-    "_그룹": "own"
-  },
-  {
-    "카드사": "하나카드",
-    "이벤트명": "트래블로그 PRESTIGE 시즌서비스 기프트 마일리지 5천 Mile",
+    "이벤트명": "KTX 최대 15% 혜택",
     "기간": "2026.01.01 ~ 2026.12.31",
     "종료일": "2026-12-31",
-    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8086",
+    "링크": "https://m.hanacard.co.kr/MKEVT1010M.web?EVN_SEQ=8272",
     "썸네일": "",
     "설명": "",
-    "_id": "8086",
+    "_id": "8272",
     "_그룹": "own"
   }
 ]
